@@ -1,0 +1,545 @@
+{
+  "title": "Teste de perfil MBTI",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Eu prefiro atividades sociais animadas e energéticas em vez de noites tranquilas em casa.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "ExI"
+    },
+    {
+      "id": 2,
+      "question": "Ao conhecer novas pessoas, geralmente sou eu quem inicia a conversa.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "ExI"
+    },
+    {
+      "id": 3,
+      "question": "Eu me sinto mais energizado quando estou rodeado por pessoas do que quando estou sozinho.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "ExI"
+    },
+    {
+      "id": 4,
+      "question": "Em eventos sociais, eu geralmente busco interagir com várias pessoas, em vez de ficar com um grupo pequeno.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "ExI"
+    },
+    {
+      "id": 5,
+      "question": "Eu confio mais em informações concretas e reais do que em possibilidades futuras.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "SxN"
+    },
+    {
+      "id": 6,
+      "question": "Ao enfrentar novas situações, eu geralmente prefiro confiar na minha experiência passada em vez de buscar novas possibilidades.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "SxN"
+    },
+    {
+      "id": 7,
+      "question": "Eu acredito que a intuição é uma guia mais confiável do que fatos concretos ao tomar decisões importantes.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "SxN"
+    },
+    {
+      "id": 8,
+      "question": "Gosto de manter minhas opções abertas em vez de seguir um plano rígido.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "SxN"
+    },
+    {
+      "id": 9,
+      "question": "Ao tomar decisões importantes, eu priorizo a lógica e análise objetiva em vez de considerações pessoais e emocionais.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "TxF"
+    },
+    {
+      "id": 10,
+      "question": "Eu acredito que a verdade muitas vezes deve ser mais importante do que manter a harmonia em uma situação.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "TxF"
+    },
+    {
+      "id": 11,
+      "question": "Ao resolver conflitos, eu prefiro analisar os fatos objetivos do que considerar as emoções envolvidas.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "TxF"
+    },
+    {
+      "id": 12,
+      "question": "Quando tomo decisões, dou mais peso à lógica e ao raciocínio do que às minhas próprias emoções.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "TxF"
+    },
+    {
+      "id": 13,
+      "question": "Eu me sinto mais confortável quando tenho um plano claro e cronograma definido.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "JxP"
+    },
+    {
+      "id": 14,
+      "question": "Ao iniciar um projeto, gosto de ter todos os detalhes planejados antes de começar.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "JxP"
+    },
+    {
+      "id": 15,
+      "question": "Eu prefiro seguir um cronograma definido em vez de deixar as coisas acontecerem espontaneamente.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "JxP"
+    },
+    {
+      "id": 16,
+      "question": "Eu me sinto mais satisfeito quando as coisas estão decididas e planejadas em vez de manter as opções em aberto.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "JxP"
+    },
+    {
+      "id": 17,
+      "question": "Eu costumo ser o centro das atenções em eventos sociais.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "ExI"
+    },
+    {
+      "id": 18,
+      "question": "Eu gosto de explorar possibilidades além do que é concreto e real.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "SxN"
+    },
+    {
+      "id": 19,
+      "question": "Eu valorizo mais a harmonia em uma situação do que a verdade brutal.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "TxF"
+    },
+    {
+      "id": 20,
+      "question": "Eu me sinto mais satisfeito quando as coisas são decididas e planejadas em vez de manter as opções em aberto.",
+      "options": [
+        {
+          "name": "Discordo totalmente",
+          "alias": 1
+        },
+        {
+          "name": "Discordo parcialmente",
+          "alias": 2
+        },
+        {
+          "name": "Indiferente",
+          "alias": 3
+        },
+        {
+          "name": "Concordo parcialmente",
+          "alias": 4
+        },
+        {
+          "name": "Concordo totalmente",
+          "alias": 5
+        }
+      ],
+      "quadrant": "JxP"
+    }
+  ]
+}

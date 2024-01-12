@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="image">
+        <!-- <img src="assets/imgs/logo.png" alt=""> -->
+        <h1>Teste de personalidade</h1>
+        <h3>{{title}}</h3>
+    </div>
+
+    <div class="questions" *ngIf="!finished">
+        <h3>{{questionSelect.question}}</h3>
+    </div>
+
+    <div class="options" *ngIf="!finished">
+        <button class="btn" *ngFor="let op of questionSelect.options"
+            (click)="playerChoose(op.alias, questionSelect.quadrant)">
+            {{ op.name }}
+        </button>
+    </div>
+
+    <div class="results" *ngIf="finished">
+        <span>Sua personalidade é:</span>
+        <h3 class="{{personalidaeTexto}}">{{personalidaeTexto}}</h3>
+
+        <div id="chart"></div>
+
+        <a (click)="reset()">Voltar</a>
+    </div>
+
+    <div>
+        <div class="ISTJ" *ngIf="finished">
+            <strong>{{personality.id}}: {{personality.title}}</strong>
+
+            <p>
+                {{personality.description}}
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <h4>
+            O teste MBTI oferece uma interessante perspectiva sobre as preferências psicológicas individuais, proporcionando insights valiosos para reflexão pessoal. No entanto, é fundamental lembrar que sua aplicação por um profissional qualificado é crucial para garantir interpretações precisas e contextualizadas. O MBTI é uma ferramenta fascinante para autoconhecimento, mas para conclusões mais robustas e decisões importantes, sempre busque a orientação de um profissional em psicologia ou recursos humanos.
+        </h4>
+        
+        <p>
+            Embora o teste de personalidade MBTI tenha como fundamentação teórica os trabalhos de Carl Gustav Jung, um
+            psicólogo reconhecido e cuja abordagem (psicologia analítica) é reconhecida por grande parte dos órgãos
+            regulamentadores da profissão da psicologia (como o Conselho Federal de Psicologia, por exemplo), há
+            divergências quanto à sua validade científica.
+
+            Existem pesquisadores e especialistas que não consideram nem mesmo a teoria de Jung como científica, muitas
+            vezes caracterizando-a como pseudociência. Portanto, não há como dizer com certeza que se trata de um teste
+            cientificamente válido.
+
+            No entanto, isso não necessariamente invalida o teste como um todo. Ele ainda serve como um instrumento de
+            autoconhecimento que busca uma base mais sólida do que ferramentas místicas ou religiosas e, portanto, serve
+            como uma alternativa para pessoas céticas e que gostariam de acessar uma ferramenta mais fundamentada.
+        </p>
+    </div>
+</div>
